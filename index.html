@@ -4,19 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mass URL Opener - Open Multiple URLs Instantly</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?ver=270720251713">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
-        (function(m,e,t,r,i,k,a){
-            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();
-            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103499853', 'ym');
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=103499853', 'ym');
 
-        ym(103499853, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+        ym(103499853, 'init', {
+            ssr: true,
+            webvisor: true,
+            clickmap: true,
+            ecommerce: "dataLayer",
+            accurateTrackBounce: true,
+            trackLinks: true
+        });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/103499853" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/103499853" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
 </head>
 <body>
@@ -30,7 +45,9 @@
                 <span class="nav-badge">Chrome Extension</span>
             </div>
 
-            <button class="nav-button">Add to Chrome</button>
+            <button class="nav-button">
+                Add to Chrome
+            </button>
         </div>
     </div>
 </nav>
@@ -39,11 +56,6 @@
 <main class="main-container">
     <section class="hero-section">
         <div class="hero-content">
-            <div class="hero-badge">
-                <img src="https://www.google.com/chrome/static/images/chrome-logo.svg" width="16" height="16" style="margin-right: 10px">
-                Chrome Extension
-            </div>
-
             <h1 class="hero-title">
                 Open Multiple URLs
                 <span class="hero-title-gradient">
@@ -58,68 +70,11 @@
 
             <div class="hero-cta">
                 <button class="cta-button">
-                    <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                        <polyline points="7,10 12,15 17,10"/>
-                        <line x1="12" x2="12" y1="15" y2="3"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" tabindex="-1" style="margin-right: 10px">
+                        <path fill="currentColor" d="M0 12c0-2.156.563-4.219 1.594-6l5.156 8.953C7.781 16.781 9.703 18 12 18c.656 0 1.266-.094 1.875-.281l-3.563 6.187C4.454 23.11 0 18.094 0 12Zm17.11 3.094A5.82 5.82 0 0 0 18 12c0-1.781-.797-3.375-2.063-4.5h7.172c.563 1.406.891 2.953.891 4.5 0 6.656-5.39 12-12 12l5.11-8.906ZM22.36 6H12c-2.953 0-5.344 2.11-5.906 4.828L2.53 4.641C4.734 1.828 8.156 0 12 0c4.406 0 8.297 2.438 10.36 6ZM7.874 12A4.131 4.131 0 0 1 12 7.875c2.25 0 4.125 1.875 4.125 4.125A4.131 4.131 0 0 1 12 16.125 4.101 4.101 0 0 1 7.875 12Z"></path>
                     </svg>
                     Add to Chrome
                 </button>
-            </div>
-
-            <!-- Browser Mockup -->
-            <div class="browser-mockup">
-                <!-- Browser Header -->
-                <div class="browser-header">
-                    <div class="browser-controls">
-                        <!-- Traffic Light Buttons -->
-                        <div class="traffic-lights">
-                            <div class="traffic-light traffic-light-red"></div>
-                            <div class="traffic-light traffic-light-yellow"></div>
-                            <div class="traffic-light traffic-light-green"></div>
-                        </div>
-
-                        <!-- Address Bar -->
-                        <div class="address-bar">
-                            <input class="address-input" value="chrome-extension://mass-url-opener" readonly>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Extension Interface -->
-                <div class="extension-interface">
-                    <!-- Extension Title -->
-                    <div class="extension-header">
-                        <h2 class="extension-title">
-                            Mass URL Opener
-                        </h2>
-                        <p class="extension-subtitle">
-                            Paste your URLs below, one per line
-                        </p>
-                    </div>
-
-                    <!-- URL Input Area -->
-                    <div class="url-input-container">
-                            <textarea class="url-textarea" readonly>https://example.com
-https://google.com
-https://github.com
-https://stackoverflow.com</textarea>
-                    </div>
-
-                    <!-- Action Button -->
-                    <div class="action-button-container">
-                        <button class="action-button">
-                            Open All Links
-                        </button>
-                    </div>
-
-                    <!-- Small feature indicator -->
-                    <div class="feature-indicator">
-                        <p class="feature-text">
-                            4 URLs ready to open
-                        </p>
-                    </div>
-                </div>
             </div>
 
             <!-- Bottom spacing for visual balance -->
@@ -127,5 +82,14 @@ https://stackoverflow.com</textarea>
         </div>
     </section>
 </main>
+
+<footer class="footer">
+    <div class="footer-container">
+        <p class="footer-text">
+            Contact us: <a href="mailto:ivatech.ext@gmail.com" class="footer-link">ivatech.ext@gmail.com</a>
+        </p>
+    </div>
+</footer>
+
 </body>
 </html>
