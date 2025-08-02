@@ -94,7 +94,6 @@ p {
 .instructions {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
 }
 
 .step {
@@ -173,10 +172,6 @@ p {
 
     .header {
         margin-bottom: 2rem;
-    }
-
-    .instructions {
-        gap: 2.5rem;
     }
 
     .step {
